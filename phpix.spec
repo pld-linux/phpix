@@ -1,6 +1,7 @@
 # TODO:
 # - make some fine default index.php
 # - multiuser configuration??
+# - install apache config
 #
 Summary:	phpix2 - web-based photo album
 Summary(pl):	phpix2 - album fotografii na WWW
@@ -11,6 +12,7 @@ License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://dl.sourceforge.net/phpix2/%{name}-%{version}.tar.gz
 # Source0-md5:	3edb9de999a89da9de4e64a4d51039b9
+Source1:	%{name}-apache.conf
 URL:		http://phpix2.sourceforge.net/
 Requires:	php-exif
 Requires:	webserver
