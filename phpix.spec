@@ -26,7 +26,7 @@ PHPix2 is a web-based photo album. It generates thumbnails and scales
 images automatically, so all you have to do is upload the originals.
 
 %description -l pl
-PHPix2 jest opartym na WW albumem fotografii. Generuje miniaturki i skaluje
+PHPix2 jest opartym na WWW albumem fotografii. Generuje miniaturki i skaluje
 rysunki automatycznie, wiêc wszystko co musisz zrobiæ to upload orygina³ów.
 
 %prep
