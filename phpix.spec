@@ -6,12 +6,12 @@
 Summary:	phpix2 - web-based photo album
 Summary(pl):	phpix2 - album fotografii na WWW
 Name:		phpix
-Version:	2.0.1
+Version:	2.1
 Release:	0.2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://dl.sourceforge.net/phpix2/%{name}-%{version}.tar.gz
-# Source0-md5:	3edb9de999a89da9de4e64a4d51039b9
+# Source0-md5:	c8b59979a9f90e8edfa7aaecde4d8af1
 Source1:	%{name}-apache.conf
 URL:		http://phpix2.sourceforge.net/
 Requires:	php-exif
@@ -39,7 +39,6 @@ install -d $RPM_BUILD_ROOT{%{_phpdir},%{_phpdatadir}/{albums,cache},%{_sysconfdi
 install *.{gif,jpg} $RPM_BUILD_ROOT%{_phpdir}
 install view.php $RPM_BUILD_ROOT%{_phpdir}
 install common.inc $RPM_BUILD_ROOT%{_phpdir}
-install album.php $RPM_BUILD_ROOT%{_phpdir}/index.php
 install dfl_config.inc $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/config.inc
 install dfl_style.css $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/style.css
 
