@@ -26,8 +26,9 @@ PHPix2 is a web-based photo album. It generates thumbnails and scales
 images automatically, so all you have to do is upload the originals.
 
 %description -l pl
-PHPix2 jest opartym na WWW albumem fotografii. Generuje miniaturki i skaluje
-rysunki automatycznie, wiêc wszystko co musisz zrobiæ to upload orygina³ów.
+PHPix2 jest opartym na WWW albumem fotografii. Generuje miniaturki i
+skaluje rysunki automatycznie, wiêc wszystko co musisz zrobiæ to
+upload orygina³ów.
 
 %prep
 %setup -q -n %{name}
@@ -59,8 +60,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog HISTORY README TODO
 %dir %{_sysconfdir}/%{name}
-%config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/%{name}/config.inc
-%config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/%{name}/style.css
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}/config.inc
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}/style.css
 %dir %{_phpdir}
 %attr(755,http,http) %{_phpdir}/convert
 %{_phpdir}/albums
