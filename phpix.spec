@@ -14,7 +14,7 @@ Source0:	http://dl.sourceforge.net/phpix2/%{name}-%{version}.tar.gz
 # Source0-md5:	c8b59979a9f90e8edfa7aaecde4d8af1
 Source1:	%{name}-apache.conf
 URL:		http://phpix2.sourceforge.net/
-Requires:	php-exif
+Requires:	php(exif)
 Requires:	webserver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
