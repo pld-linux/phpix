@@ -4,7 +4,7 @@
 # - install apache config
 #
 Summary:	phpix2 - web-based photo album
-Summary(pl):	phpix2 - album fotografii na WWW
+Summary(pl.UTF-8):   phpix2 - album fotografii na WWW
 Name:		phpix
 Version:	2.1
 Release:	0.2
@@ -25,10 +25,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PHPix2 is a web-based photo album. It generates thumbnails and scales
 images automatically, so all you have to do is upload the originals.
 
-%description -l pl
+%description -l pl.UTF-8
 PHPix2 jest opartym na WWW albumem fotografii. Generuje miniaturki i
-skaluje rysunki automatycznie, wiêc wszystko co musisz zrobiæ to
-upload orygina³ów.
+skaluje rysunki automatycznie, wiÄ™c wszystko co musisz zrobiÄ‡ to
+upload oryginaÅ‚Ã³w.
 
 %prep
 %setup -q -n %{name}
