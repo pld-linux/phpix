@@ -4,7 +4,7 @@
 # - install apache config
 #
 Summary:	phpix2 - web-based photo album
-Summary(pl.UTF-8):   phpix2 - album fotografii na WWW
+Summary(pl.UTF-8):	phpix2 - album fotografii na WWW
 Name:		phpix
 Version:	2.1
 Release:	0.2
